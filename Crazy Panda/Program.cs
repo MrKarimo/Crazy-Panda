@@ -52,10 +52,10 @@ namespace Crazy_Panda
                 FindElementsForSum(new List<uint> { 4294967295, 4294967231, 845967295, 845967295, 4294737195, 4294924975, 50967295, 1323967295 }, 10281596760, out start, out end); //start будет равен 2 и end 6;
                 Console.WriteLine("start: {0}, end: {1}\n", start, end);
 
-                //Проверка на сумму обратные последовательности
-                Console.WriteLine("Проверка на сумму обратные последовательности");
+                //Проверка на сумму обратных последовательностей
+                Console.WriteLine("Проверка на сумму обратных последовательностей");
                 start = 0; end = 0;
-                Console.WriteLine("Должно быть:\nstart будет равен 0 и end 6 с учетом ноля");
+                Console.WriteLine("Должно быть:\nstart будет равен 0 и end 6, с учетом ноля");
                 FindElementsForSum(new List<uint> { 0, 1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1, 0 }, 15, out start, out end); //start будет равен 0 и end 6 с учетом ноля;
                 Console.WriteLine("start: {0}, end: {1}\n", start, end);
 
